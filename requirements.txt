@@ -1,1 +1,2 @@
-bokeh==0.12.10
+bokeh
+openai
