@@ -1,2 +1,3 @@
 bokeh
 openai
+sep_core
