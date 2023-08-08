@@ -48,7 +48,7 @@ from sep_core import sep
 get earth pressure
 """
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 def get_response_from_messages(messages, temperature, presence):
     response = openai.ChatCompletion.create(
