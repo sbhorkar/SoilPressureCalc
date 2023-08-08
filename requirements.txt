@@ -1,2 +1,3 @@
 bokeh
 openai
+streamlit_chat
