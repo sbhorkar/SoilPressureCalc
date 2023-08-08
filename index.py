@@ -44,9 +44,11 @@ import numpy as np
 
 from sep_core import sep
 
-"""
-get earth pressure
-"""
+code_input = st.text_area("Enter lines of code:")
+    
+    # Display the entered code
+    st.write("Entered Code:")
+    st.code(code_input, language="python")
 
 openai.api_key = st.secrets["openai"]
 
