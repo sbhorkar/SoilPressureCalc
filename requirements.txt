@@ -1,3 +1,2 @@
 bokeh
 openai
-git+https://github.com/NYUGeo/sep-calculator/blob/master/sep_core.py
