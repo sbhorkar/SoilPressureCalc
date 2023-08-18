@@ -49,14 +49,12 @@ read_input = st.text_area("Enter ReadMe here:", height=25)
 # Display the entered code
 st.write("ReadMe:")
 st.code(read_input)
-read_input.disabled = True
 
 code_input = st.text_area("Enter python function:", height=25)
     
 # Display the entered code
 st.write("Python Function:")
 st.code(code_input, language="python")
-code_input.disabled = True
 
 openai.api_key = st.secrets["openai"]
 
