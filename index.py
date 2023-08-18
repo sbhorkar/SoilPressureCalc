@@ -44,10 +44,16 @@ import numpy as np
 
 from sep_core import sep
 
-code_input = st.text_area("Enter lines of code:")
+read_input = st.text_area("Enter ReadMe here:")
     
 # Display the entered code
-st.write("Entered Code:")
+st.write("ReadMe:")
+st.code(read_input)
+
+code_input = st.text_area("Enter python function:")
+    
+# Display the entered code
+st.write("Python Function:")
 st.code(code_input, language="python")
 
 openai.api_key = st.secrets["openai"]
